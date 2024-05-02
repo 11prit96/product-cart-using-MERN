@@ -14,7 +14,6 @@ const useFetch = (url) => {
                 const response = await axios.get(url)
                 const data = await response?.data
                 const productCart = await data?.productCart
-
                 setApiData(productCart)
                 setIsLoading(false)
             } catch (error) {

@@ -10,7 +10,7 @@ let productCart =
     ]
 
 export const getAllCartItems = (req, res) => {
-    res.status(200).json(productCart)
+    res.status(200).json({ productCart })
     // const allCartItems = await productModel.find()
     // res.status(200).json(allCartItems)
 }
