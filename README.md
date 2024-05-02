@@ -1,0 +1,2 @@
+In a rush of things, I forgot I had to integrate with mongoose. The app is working completely fine. I tried to use mongoose, but it was just 30 minutes from the deadline of 4 p.m and I could not integrate it properly. So I went back and used the non-async controllers again. I have used React with Vite, React router dom, basic css, express. If you happen to fork the project, then please make sure to install the node modules at both the client and server folders.
+
