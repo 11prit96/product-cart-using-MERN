@@ -10,6 +10,9 @@ router.route('/')
 router.route('/:id')
     .get(getACartItem)
     .delete(removeItemFromCart)
-    .patch(cartItemCustomQuantity, increaseQuantityByOne, decreaseQuantityByOne)
+    .patch(cartItemCustomQuantity)
+
+router.route('/:id/increaseQuantity').patch(increaseQuantityByOne)
+router.route('/:id/decreaseQuantity').patch(decreaseQuantityByOne)
 
 export default router
